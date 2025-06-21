@@ -64,12 +64,28 @@ const Home = () => {
 
         {/* محتوى الهيرو فوق الخلفية */}
         <div className="relative z-10">
-        <h1 ref={ref} className="text-6xl md:text-8xl font-bold mb-6 flex items-center justify-center whitespace-nowrap">
-  <SplitText
-    text="مكتبة "
-    className="bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent"
-  />
-  <RotatingText />
+        <h1 
+  ref={ref} 
+  className="
+    text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl 
+    font-bold mb-4 md:mb-6 
+    flex flex-col sm:flex-row 
+    items-center justify-center 
+    text-center
+    px-4 sm:px-6
+    leading-tight
+    gap-2 sm:gap-0
+  "
+>   
+  <SplitText     
+    text="مكتبة "     
+    className="
+      bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 
+      bg-clip-text text-transparent
+      block
+    "   
+  />   
+  <RotatingText className="block" /> 
 </h1>
           <h2 className="text-3xl md:text-4xl font-bold mb-8 text-gray-300">
             الرهيبة لـ React
