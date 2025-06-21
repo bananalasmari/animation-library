@@ -78,13 +78,16 @@ const Home = () => {
   "
 >   
   <SplitText     
-    text="مكتبة "     
+    text=" "     
     className="
       bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 
       bg-clip-text text-transparent
       block
     "   
   />   
+  <span className="bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+    مكتبة
+  </span>
   <RotatingText className="block" /> 
 </h1>
           <h2 className="text-3xl md:text-4xl font-bold mb-8 text-gray-300">
