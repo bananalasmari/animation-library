@@ -90,9 +90,9 @@ const Home = () => {
   </span>
   <RotatingText className="block" /> 
 </h1>
-          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-gray-300">
-            الرهيبة لـ React
-          </h2>
+          {/* <h2 className="text-3xl md:text-4xl font-bold mb-8 text-gray-300">
+            الرهيبة 
+          </h2> */}
           <p className="text-xl md:text-2xl text-gray-400 mb-12 leading-relaxed">
             مجموعة من أروع التأثيرات والأشكال المتحركة الجاهزة للاستخدام في
             مشاريعك
